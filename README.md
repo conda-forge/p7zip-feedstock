@@ -3,7 +3,7 @@ About p7zip
 
 Home: http://sourceforge.net/projects/p7zip/
 
-Package license: LGPLv2
+Package license: LGPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/p7zip-feedstock/blob/master/LICENSE.txt)
 
@@ -31,6 +31,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7622&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/p7zip-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7622&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/p7zip-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7622&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/p7zip-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
