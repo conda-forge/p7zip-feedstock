@@ -13,10 +13,13 @@ source:
     - 13-CVE-2017-17969.patch
     - 14-Fix-g++-warning.patch
     - clang.diff
+    # https://salsa.debian.org/debian/p7zip-rar/-/tree/debian/16.02-3/debian/patches
+    - 06-CVE-2018-5996.patch
+    - CVE-2018-10115.patch
 
 build:
   # to be higher then the bioconda package
-  number: 1000
+  number: 1001
   skip: True  # [win]
 
 requirements:
